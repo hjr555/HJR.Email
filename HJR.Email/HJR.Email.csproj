@@ -4,10 +4,17 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>HJR.Email</RootNamespace>
     <AssemblyName>HJR.Email</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>HJR</Company>
+    <Authors>HJR</Authors>
+    <Product>Email implementations</Product>
+    <Description>A home for email sending implementations (currently only SendGrid)</Description>
+    <Copyright>HJR 2020</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.4" />
+    <PackageReference Include="SendGrid" Version="9.15.1" />
   </ItemGroup>
 
 </Project>
